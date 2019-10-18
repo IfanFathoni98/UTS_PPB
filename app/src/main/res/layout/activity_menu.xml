@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/String"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_String"
+        android:textColor="#F0EAEA"
+        app:layout_constraintEnd_toEndOf="@+id/Button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Button"
+        app:layout_constraintTop_toBottomOf="@+id/Button" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#F4F6F7"
+        android:text="@string/Tombol_logout"
+        android:textColor="#DB2626"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/String"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/String"
+        app:layout_constraintTop_toBottomOf="@+id/String"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_Button"
+        android:textColor="#F1ECED"
+        app:layout_constraintEnd_toEndOf="@+id/Number"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Number"
+        app:layout_constraintTop_toBottomOf="@+id/Number" />
+
+    <Button
+        android:id="@+id/Number"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_Number"
+        android:textColor="#FAF2F4"
+        app:layout_constraintEnd_toEndOf="@+id/Commen"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Commen"
+        app:layout_constraintTop_toBottomOf="@+id/Commen" />
+
+    <Button
+        android:id="@+id/Commen"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_Commen"
+        android:textColor="#F0EDED"
+        app:layout_constraintEnd_toEndOf="@+id/Class"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Class"
+        app:layout_constraintTop_toBottomOf="@+id/Class" />
+
+    <Button
+        android:id="@+id/Class"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_Class"
+        android:textColor="#FCFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

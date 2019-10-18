@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="Tombol_masuk">Klik Di Sini!</string>
+    <string name="Tombol_Class">Class</string>
+    <string name="Tombol_Commen">Commen</string>
+    <string name="Tombol_Number">Number</string>
+    <string name="Tombol_Button">Button</string>
+    <string name="Tombol_String">String</string>
+    <string name="Tombol_logout">Logout</string>
+
+    //Class
+    <string name="Text_Class">Class</string>
+    <string name="Text_IsiClass">Gunakan kelas kata kunci untuk membuat kelas, dan menambahkan metode konstruktor.\n Metode konstruktor dipanggil setiap kali objek kelas diinisialisasi. Definisi kelas sederhana untuk kelas bernama "Mobil"</string>
+    <string name="Tombol_SyntaxClass">Contoh Syntax</string>
+    <string name="Tombol_MateriClass">Link Materi</string>
+    <string name="Tombol_KembaliClass">Kembali</string>
+    <string name="Text_SyntaxClass">class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+}
+mycar = new Car("Ford");</string>
+    <string name="Tombol_kembalisyntaxclass">Kembali</string>
+
+    //Commen
+    <string name="Text_Commen">Commen</string>
+    <string name="Text_IsiCommen">Komentar satu baris dimulai dengan //. \n Teks apa pun antara // dan akhir baris akan diabaikan oleh JavaScript (tidak akan dieksekusi). \n Contoh ini menggunakan komentar satu baris sebelum setiap baris kode</string>
+    <string name="Tombol_SyntaxCommen">Contoh Syntax</string>
+    <string name="Tombol_MateriCommen">Link Materi</string>
+    <string name="Tombol_KembaliCommen">Kembali</string>
+    <string name="Text_SyntaxCommen">// Change heading:
+document.getElementById("myH").innerHTML = "My First Page";
+
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";</string>
+    <string name="Tombol_kembalisyntaxcommen">Kembali</string>
+
+    //Number
+    <string name="Text_Number">Number</string>
+    <string name="Text_IsiNumber">JavaScript hanya memiliki satu jenis angka. Angka dapat ditulis dengan atau tanpa desimal.</string>
+    <string name="Tombol_SyntaxNumber">Contoh Syntax</string>
+    <string name="Tombol_MateriNumber">Link Materi</string>
+    <string name="Tombol_KembaliNumber">Kembali</string>
+    <string name="Text_SyntaxNumber">var x = 3.14;    // A number with decimals
+var y = 3;       // A number without decimals
+        </string>
+    <string name="Tombol_kembalisyntaxnumber">Kembali</string>
+
+    //Button
+    <string name="Text_Button">Button</string>
+    <string name="Text_IsiButton"> Button sering digunakan untuk mengeksekusi program yang telah dirancang untuk melakukan sesuatu.</string>
+    <string name="Tombol_SyntaxButton">Contoh Syntax</string>
+    <string name="Tombol_MateriButton">Link Materi</string>
+    <string name="Tombol_KembaliButton">Kembali</string>
+    <string name="Text_SyntaxButton">Button \n 
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klik Disini" /></string>
+    <string name="Tombol_kembalisyntaxbutton">Kembali</string>
+
+    //String
+    <string name="Text_String">String</string>
+    <string name="Text_IsiString"> Button sering digunakan untuk mengeksekusi program yang telah dirancang untuk melakukan sesuatu.</string>
+    <string name="Tombol_SyntaxString">Contoh Syntax</string>
+    <string name="Tombol_MateriString">Link Materi</string>
+    <string name="Tombol_KembaliString">Kembali</string>
+    <string name="Text_SyntaxString">String greeting = "Hello";</string>
+    <string name="Tombol_kembalisyntaxstring">Kembali</string>
+
+</resources>

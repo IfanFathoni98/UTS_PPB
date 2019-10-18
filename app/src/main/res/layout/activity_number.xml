@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Number">
+
+    <Button
+        android:id="@+id/link_Materi"
+        android:layout_width="96dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_MateriNumber"
+        android:textColor="#FCF7F7"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isiNumber" />
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="128dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Text_Number"
+        android:textColor="#FCF7F7"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/isiNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isiNumber"
+        android:layout_width="391dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="104dp"
+        android:gravity="center"
+        android:text="@string/Text_IsiNumber"
+        android:textColor="#F8F5F5"
+        app:layout_constraintBottom_toTopOf="@+id/link_Materi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Number" />
+
+    <Button
+        android:id="@+id/contoh_Syntax"
+        android:layout_width="96dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_SyntaxNumber"
+        android:textColor="#F5EFF1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/link_Materi"
+        app:layout_constraintEnd_toStartOf="@+id/link_Materi"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="@+id/isiNumber"
+        app:layout_constraintTop_toTopOf="@+id/link_Materi"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Tombol_KembaliNumber"
+        android:textColor="#F7EEEF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/link_Materi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/contoh_Syntax" />
+</androidx.constraintlayout.widget.ConstraintLayout>
